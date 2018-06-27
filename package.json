@@ -40,7 +40,6 @@
     "jest-enzyme": "^6.0.0",
     "jest-styled-components": "^5.0.1",
     "lint-staged": "^7.0.4",
-    "precommit": "^1.2.2",
     "prettier-standard": "^8.0.1",
     "react-test-renderer": "^16.3.1",
     "redux-mock-store": "^1.5.1"
@@ -50,6 +49,7 @@
       "!src/registerServiceWorker.js",
       "!src/index.js",
       "!src/components/index.js",
+      "!src/utilities/index.js",
       "src/**/*.{js,jsx}",
       "!<rootDir>/node_modules/"
     ],
