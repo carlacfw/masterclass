@@ -5,5 +5,4 @@ import 'jest-styled-components'
 import toJson from 'enzyme-to-json'
 
 Enzyme.configure({ adapter: new Adapter() })
-
 global.toJson = toJson
